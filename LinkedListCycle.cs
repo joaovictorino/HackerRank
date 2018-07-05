@@ -2,8 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
+//https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem
 namespace SolutionLinkedList{
-class LinkedListCycle {
+public class LinkedListCycle {
 
     static bool hasCycle(Node head) {
         List<Node> stack = new List<Node>();

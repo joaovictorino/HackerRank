@@ -12,6 +12,7 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 
+//https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
 class ArrayLeftRotation {
 
     //my solution

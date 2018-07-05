@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+
+//https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem
 class QueueUsingTwoStacks {
     static void Main(String[] args) {
         MyQueue<int> queue = new MyQueue<int>();

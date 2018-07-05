@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>QueueUsingTwoStacks</StartupObject>
+    <StartupObject>SolutionBinaryTree.HeightBinaryTree</StartupObject>
   </PropertyGroup>
 
 </Project>

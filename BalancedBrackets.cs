@@ -12,6 +12,7 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 
+//https://www.hackerrank.com/challenges/ctci-balanced-brackets/problem
 class BalancedBrackets {
 
     // Complete the isBalanced function below.

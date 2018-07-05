@@ -12,6 +12,7 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 
+//https://www.hackerrank.com/challenges/ctci-lonely-integer/problem
 class LonelyInteger {
 
     static void Main(string[] args) {
