@@ -1,0 +1,11 @@
+C:\Users\jh_vs\source\repos\Hackerrank\problems\obj\Debug\netcoreapp2.0\problems.csproj.CoreCompileInputs.cache
+C:\Users\jh_vs\source\repos\Hackerrank\problems\obj\Debug\netcoreapp2.0\problems.AssemblyInfoInputs.cache
+C:\Users\jh_vs\source\repos\Hackerrank\problems\obj\Debug\netcoreapp2.0\problems.AssemblyInfo.cs
+C:\Users\jh_vs\source\repos\Hackerrank\problems\bin\Debug\netcoreapp2.0\problems.deps.json
+C:\Users\jh_vs\source\repos\Hackerrank\problems\bin\Debug\netcoreapp2.0\problems.runtimeconfig.json
+C:\Users\jh_vs\source\repos\Hackerrank\problems\bin\Debug\netcoreapp2.0\problems.runtimeconfig.dev.json
+C:\Users\jh_vs\source\repos\Hackerrank\problems\bin\Debug\netcoreapp2.0\problems.dll
+C:\Users\jh_vs\source\repos\Hackerrank\problems\bin\Debug\netcoreapp2.0\problems.pdb
+C:\Users\jh_vs\source\repos\Hackerrank\problems\obj\Debug\netcoreapp2.0\problems.dll
+C:\Users\jh_vs\source\repos\Hackerrank\problems\obj\Debug\netcoreapp2.0\problems.pdb
+C:\Users\jh_vs\source\repos\Hackerrank\problems\obj\Debug\netcoreapp2.0\problems.csprojAssemblyReference.cache
