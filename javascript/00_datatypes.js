@@ -1,23 +1,19 @@
 'use strict';
 
-process.stdin.resume();
-process.stdin.setEncoding('utf-8');
-
-let inputString = '';
+let inputString = new Array();
 let currentLine = 0;
 
 var stdin = process.openStdin();
 
 stdin.addListener('data', inputStdin => {
-    inputString += inputStdin;
-});
+    inputString[currentLine] = inputStdin;
 
-stdin.addListener('end', () => {
-    inputString = inputString.trim().split('\n').map(string => {
-        return string.trim();
-    });
-    
-    main();    
+    if(currentLine == 2){
+        currentLine = 0;
+        main();
+    }
+
+    currentLine++;
 });
 
 function readLine() {
@@ -38,7 +34,7 @@ function performOperation(secondInteger, secondDecimal, secondString) {
     console.log(firstInteger + parseInt(secondInteger));
     
     // Write code that uses console.log to print the sum of 'firstDecimal' and 'secondDecimal' (converted to a Number type) on a new line.
-    console.log(firstDecimal + parseFloat(secondDecimal));    
+    console.log(firstDecimal + parseFloat(secondDecimal)); 
     
     // Write code that uses console.log to print the concatenation of 'firstString' and 'secondString' on a new line. The variable 'firstString' must be printed first.
     console.log(firstString + secondString);    
@@ -51,4 +47,6 @@ function main() {
     const secondString = readLine();
     
     performOperation(secondInteger, secondDecimal, secondString);
+
+    process.exit(0);
 }
